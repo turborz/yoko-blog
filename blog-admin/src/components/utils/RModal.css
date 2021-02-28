@@ -1,0 +1,70 @@
+/* react-modal: Remove scroll on the body when react-modal is open */
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.RModalWrapper {
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+
+.RModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 100%;
+  overflow: scroll;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background-color: white;
+  z-index: 1040;
+}
+.RModal button.close {
+  position: absolute;
+  right: 0.65rem;
+  top: 0.875rem;
+  border: none;
+  color: #000;
+  background-color: transparent;
+  opacity: 0.2;
+}
+.RModal button.close:hover, .RModal button.close:focus {
+  opacity: 0.5;
+  text-decoration: none;
+}
+.RModal button.close .gofont {
+  font-size: 1.95rem;
+}
+.RModal .rmodal-header {
+  border-bottom: 1px solid #d1d5da;
+  padding: 1.5rem 2.6rem 1.5rem 1.95rem;
+  text-align: left;
+}
+.RModal .rmodal-header .rmodal-title {
+  margin: 0 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+.RModal .rmodal-body {
+  padding: 1.5rem 1.95rem;
+}
+.RModal .rmodal-footer {
+  text-align: left;
+  border-top: 1px solid #d1d5da;
+  padding: 1.5rem 1.95rem;
+}
+
+.rmodal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  z-index: 1039;
+}
+
+/*# sourceMappingURL=RModal.css.map */

@@ -1,0 +1,38 @@
+.Pagination {
+  display: flex;
+  width: 100%;
+}
+.Pagination .summary {
+  align-self: center;
+  padding: 0.325rem 0;
+  flex: 1;
+}
+.Pagination .page-list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.Pagination .page-list .page-item, .Pagination .page-list .page-item-active, .Pagination .page-list .page-item-disabled {
+  margin: 0 0.2rem;
+}
+.Pagination .page-list .page-item .page-link, .Pagination .page-list .page-item-active .page-link, .Pagination .page-list .page-item-disabled .page-link {
+  display: inline-block;
+  padding: 0.325rem 0.65rem;
+  border-radius: 0.4rem;
+}
+.Pagination .page-list .page-item .page-link:hover, .Pagination .page-list .page-item-active .page-link:hover, .Pagination .page-list .page-item-disabled .page-link:hover {
+  color: white;
+  background-color: #4471E3;
+}
+.Pagination .page-list .page-item-disabled .page-link {
+  color: #ccc;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.Pagination .page-list .page-item-active .page-link {
+  color: white;
+  background-color: #4A7BF7;
+}
+
+/*# sourceMappingURL=Pagination.css.map */

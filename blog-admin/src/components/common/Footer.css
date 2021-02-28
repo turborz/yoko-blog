@@ -1,0 +1,16 @@
+.Footer {
+  padding: 1.3rem 0.65rem 0.65rem 0.65rem;
+  border-top: 1px solid #d1d5da;
+  text-align: center;
+}
+.Footer ul.friend_links {
+  margin-top: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+.Footer ul.friend_links li {
+  display: inline-block;
+  margin-right: 0.65rem;
+}
+
+/*# sourceMappingURL=Footer.css.map */

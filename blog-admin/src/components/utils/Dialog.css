@@ -1,0 +1,58 @@
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  z-index: 1040;
+}
+.dialog .dialog-close {
+  position: absolute;
+  right: 0.65rem;
+  top: 0.65rem;
+  border: none;
+  background-color: transparent;
+  opacity: 0.2;
+}
+.dialog .dialog-close .rapfont {
+  font-size: 1.95rem;
+}
+.dialog .dialog-close:hover, .dialog .dialog-close:focus {
+  color: #000;
+  text-decoration: none;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.dialog .dialog-content .dialog-header {
+  border-bottom: 1px solid #d1d5da;
+  padding: 1.5rem 2.6rem 1.5rem 1.95rem;
+  text-align: left;
+}
+.dialog .dialog-content .dialog-header .dialog-title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.dialog .dialog-content .dialog-body {
+  padding: 1.5rem 1.95rem;
+}
+.dialog .dialog-content .dialog-footer {
+  text-align: left;
+  border-top: 1px solid #d1d5da;
+  padding: 1.5rem 1.95rem;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  z-index: 1039;
+}
+
+/*# sourceMappingURL=Dialog.css.map */

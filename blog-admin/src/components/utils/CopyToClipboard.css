@@ -1,0 +1,14 @@
+.rc-tooltip-content .rc-tooltip-inner {
+  min-height: unset;
+  padding: 0;
+}
+
+.copy-link {
+  cursor: pointer;
+  color: #999;
+}
+.copy-link:hover {
+  color: #4A7BF7;
+}
+
+/*# sourceMappingURL=CopyToClipboard.css.map */

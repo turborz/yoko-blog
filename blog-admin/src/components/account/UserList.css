@@ -1,0 +1,14 @@
+.UserList {
+  padding: 1.3rem;
+}
+.UserList .header {
+  margin-bottom: 1.3rem;
+}
+.UserList .header .title {
+  font-size: 1.3rem;
+}
+.UserList .toolbar {
+  margin-bottom: 0.65rem;
+}
+
+/*# sourceMappingURL=UserList.css.map */
